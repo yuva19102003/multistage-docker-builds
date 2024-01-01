@@ -55,6 +55,6 @@ COPY --from=build /app/build /usr/share/nginx/html
 
 ## Customize
 
-Feel free to customize the `Dockerfile` and other configurations to align with the specific requirements of your project. You can adjust the base images, dependencies, and build scripts according to your needs.
+Feel free to customize the `[dockerfile.prod](http://localhost)` and other configurations to align with the specific requirements of your project. You can adjust the base images, dependencies, and build scripts according to your needs.
 
 ---
