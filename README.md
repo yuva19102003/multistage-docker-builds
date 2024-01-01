@@ -1,7 +1,4 @@
-Certainly! Let's elaborate further on each section to provide more context and guidance.
-
 ---
-
 # Multi-Stage Docker Builds for React.js with Node.js and Nginx
 
 This repository serves as an example of leveraging multi-stage Docker builds to create a streamlined Docker image for deploying a React.js application. By employing multi-stage builds, we can utilize different base images for distinct phases of the build process, resulting in a more efficient and smaller final Docker image.
@@ -26,9 +23,9 @@ Before proceeding, ensure that you have Docker installed on your local machine. 
 
 3. **Run the Docker Container:**
    ```bash
-   docker run -p 8080:80 react-app
+   docker run -p 8080:80 multistage_image:latest
    ```
-   The `-p 80:80` flag maps port 80 of your host machine to port 80 of the Docker container. Adjust the port mapping as needed.
+   The `-p 8080:80` flag maps port 80 of your host machine to port 80 of the Docker container. Adjust the port mapping as needed.
 
 4. **View the Application:**
    Open your web browser and navigate to [http://localhost](http://localhost) to access your React.js application running inside the Docker container.
